@@ -417,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TXR34YRJP8;
 				INFOPLIST_FILE = "Button Fun/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NTDev.Button-Fun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TXR34YRJP8;
 				INFOPLIST_FILE = "Button Fun/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NTDev.Button-Fun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +516,7 @@
 				633507971E00417800B20086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		633507981E00417800B20086 /* Build configuration list for PBXNativeTarget "Button FunTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +525,7 @@
 				6335079A1E00417800B20086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6335079B1E00417800B20086 /* Build configuration list for PBXNativeTarget "Button FunUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +534,7 @@
 				6335079D1E00417800B20086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

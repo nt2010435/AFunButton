@@ -9,17 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var statusLabel: UILabel!
+    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        let title = sender.title(for: UIControlState.normal)! // Updated sender.titleForState(.Normal) to sender.title(for: UIControlState.normal)
+        let text = "\(title) button pressed"
+        statusLabel.text = text
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
