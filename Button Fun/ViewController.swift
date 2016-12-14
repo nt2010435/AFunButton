@@ -14,7 +14,12 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
         let title = sender.title(for: UIControlState.normal)! // Updated sender.titleForState(.Normal) to sender.title(for: UIControlState.normal)
         let text = "\(title) button pressed"
-        statusLabel.text = text
+        //statusLabel.text = text
+        let styledText = NSMutableAttributedString(string: text)
+        let attributes = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: statusLabel.font.pointSize)]
+        let nameRange = (text as NSString).range(of: title)
+        styledText.setAttributes(attributes, range: nameRange)
+        statusLabel.attributedText = styledText
     }
 
 }
